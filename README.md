@@ -300,7 +300,7 @@ Any other string will give an error.
 
 Together with Type Aliases and Union Types you get a enum-like behavior.
 
-```
+```ts
 type Species = "cat" | "dog" | "bird";
 
 function buyPet(pet: Species, name: string) : Pet { /*...*/ }
@@ -543,7 +543,7 @@ let nullableBool: boolean = null;
 
 A Intersection Type combines the member of two or more types.
 
-```
+```ts
 interface Knife {
     cut();
 }
